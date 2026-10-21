@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Bolotas World é um jogo de plataforma 2D para Android. Corra, pule, colete bolotas e personalize seu mascote.">
+  <meta name="theme-color" content="#143b57">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Bolotas World — jogo de plataforma para Android">
+  <meta property="og:description" content="Corra, pule, colete bolotas e personalize seu mascote em Bolotas World.">
+  <meta property="og:url" content="https://igorcacerez.github.io/bolotas-world/">
+  <title>Bolotas World — Jogo de plataforma 2D para Android</title>
+  <style>
+    :root { color-scheme: light; --ink: #17334a; --muted: #476276; --green: #72bd42; --orange: #ffb52e; --surface: #fff; }
+    * { box-sizing: border-box; }
+    body { margin: 0; min-height: 100vh; color: var(--ink); background: linear-gradient(160deg, #e9f8ff, #f4ffe5 60%, #fff2d7); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+    main { width: min(760px, calc(100% - 32px)); margin: 9vh auto; padding: clamp(28px, 7vw, 64px); background: var(--surface); border: 1px solid #d8e9d0; border-radius: 28px; box-shadow: 0 18px 60px #17334a18; }
+    .mascot { display: grid; place-items: center; width: 76px; height: 76px; margin-bottom: 24px; border-radius: 24px; background: #fff2d7; font-size: 42px; }
+    h1 { margin: 0; font-size: clamp(2.2rem, 8vw, 4rem); line-height: 1.05; letter-spacing: -.04em; }
+    .tagline { margin: 16px 0 28px; color: var(--muted); font-size: clamp(1.05rem, 3vw, 1.25rem); }
+    .cta { display: inline-block; padding: 13px 22px; border-radius: 14px; color: #392700; background: var(--orange); font-weight: 750; text-decoration: none; }
+    .cta:hover { background: #ffc54f; }
+    nav { display: flex; flex-wrap: wrap; gap: 18px; margin-top: 36px; padding-top: 20px; border-top: 1px solid #e4eee0; }
+    nav a { color: #285c7a; }
+    footer { margin-top: 22px; color: var(--muted); font-size: .9rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="mascot" aria-hidden="true">🐿️</div>
+    <h1>Bolotas World</h1>
+    <p class="tagline">Um jogo de plataforma 2D para Android: corra, pule, colete bolotas e personalize seu mascote.</p>
+    <a class="cta" href="https://play.google.com/store/apps/details?id=com.igorcacerez.bolotasworld">Conheça o jogo no Google Play</a>
+    <nav aria-label="Informações do jogo">
+      <a href="https://igorcacerez.github.io/bolotas-world-privacy/">Política de privacidade</a>
+      <a href="mailto:igor.cacerez@gmail.com">Suporte</a>
+    </nav>
+    <footer>Bolotas World para Android · Desenvolvido por Igor Cacerez Albino</footer>
+  </main>
+</body>
+</html>
